@@ -11,24 +11,35 @@ class ViewController: BaseViewController {
     @IBOutlet weak var acc: UIActivityIndicatorView!
     @IBOutlet var tableView: UITableView!
     
+    let refreshControl = UIRefreshControl()
+    
     let viewModel = MainViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.refreshControl = refreshControl
+        
+        refreshControl.addTarget(self, action: #selector(refresh), for: .valueChanged)
+        
         
         viewModel.needShowProgress = { isLoading in
             if isLoading {
                 self.acc.startAnimating()
             } else {
                 self.acc.stopAnimating()
+                self.refreshControl.endRefreshing()
             }
         }
         
         viewModel.needReloadUITableData = {
             self.tableView.reloadData()
         }
+    }
+    
+    @objc func refresh() {
+        viewModel.fetchData()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -81,10 +92,32 @@ extension ViewController : UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 100
     }
+    
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        viewModel.willDisplayData(indexPath: indexPath)
+    }
+    
+    func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
+        return .delete
+    }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            viewModel.deleteItem(indexPath: indexPath)
+            tableView.deleteRows(at: [indexPath], with: .top)
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, titleForDeleteConfirmationButtonForRowAt indexPath: IndexPath) -> String? {
+        return "Sil"
+    }
 }
 
 extension ViewController : UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+
 }
 
 extension ViewController : UITextFieldDelegate {

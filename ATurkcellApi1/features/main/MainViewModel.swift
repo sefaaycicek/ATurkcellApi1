@@ -14,20 +14,32 @@ class MainViewModel: BaseViewModel {
     var needShowProgress : ((Bool)->())? = nil
     
     private var orignalPostList : [Post]? = nil
-    private var postList : [[PostListUIModel]]? = nil
+    private var postList : [[PostListUIModel]] = []
+    
+    var pageIndex = 0
+    var endOfList : Bool = false
     
     init(apiService : ApiServiceProtocol = ApiService()) {
         self.apiService = apiService
     }
     
     //func fetchData(onCompleted : @escaping ()->()) {
-    func fetchData() {
+    func fetchData(isRefreshList : Bool = false) {
         self.needShowProgress?(true)
+       
+        if isRefreshList {
+            postList.removeAll()
+        }
+        
         Task {
             do {
                 try? await Task.sleep(nanoseconds: 3000000000) // dummy
                 self.orignalPostList = try await apiService.fetchPosts()
-                self.postList = orignalPostList?.map { PostListUIModel(post: $0) }.chunked(into: 13)
+                if let items = orignalPostList?.map({ PostListUIModel(post: $0) }).chunked(into: 13), !items.isEmpty {
+                    postList.append(contentsOf: items)
+                } else {
+                    endOfList = true
+                }
                 
                 await MainActor.run {
                     self.needReloadUITableData?()
@@ -44,15 +56,28 @@ class MainViewModel: BaseViewModel {
     }
     
     var sectionCount : Int {
-        return postList?.count ?? 0
+        return postList.count
     }
     
     func itemCount(section : Int) -> Int {
-        return postList?[section].count ?? 0
+        return postList[section].count
     }
     
     func getItem(section : Int, index : Int) -> PostListUIModel {
-        return postList![section][index]
+        return postList[section][index]
+    }
+    
+    func willDisplayData(indexPath : IndexPath) {
+        if endOfList { return }
+        
+        if indexPath.section == (sectionCount - 1) &&
+            indexPath.row == itemCount(section: indexPath.section) - 1 {
+            fetchData()
+        }
+    }
+    
+    func deleteItem(indexPath : IndexPath) {
+        self.postList[indexPath.section].remove(at: indexPath.row)
     }
 }
 
