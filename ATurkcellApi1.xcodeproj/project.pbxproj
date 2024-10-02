@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DC7E42E22CAD5991000E4CC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC7E42C32CAD5990000E4CC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC7E42CA2CAD5990000E4CC4;
+			remoteInfo = ATurkcellApi1;
+		};
+		DC7E42EC2CAD5991000E4CC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC7E42C32CAD5990000E4CC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC7E42CA2CAD5990000E4CC4;
+			remoteInfo = ATurkcellApi1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC7E42CB2CAD5990000E4CC4 /* ATurkcellApi1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATurkcellApi1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7E42E12CAD5991000E4CC4 /* ATurkcellApi1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATurkcellApi1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7E42EB2CAD5991000E4CC4 /* ATurkcellApi1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATurkcellApi1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DC7E42F32CAD5991000E4CC4 /* Exceptions for "ATurkcellApi1" folder in "ATurkcellApi1" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DC7E42CA2CAD5990000E4CC4 /* ATurkcellApi1 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DC7E42CD2CAD5990000E4CC4 /* ATurkcellApi1 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DC7E42F32CAD5991000E4CC4 /* Exceptions for "ATurkcellApi1" folder in "ATurkcellApi1" target */,
+			);
+			path = ATurkcellApi1;
+			sourceTree = "<group>";
+		};
+		DC7E42E42CAD5991000E4CC4 /* ATurkcellApi1Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ATurkcellApi1Tests;
+			sourceTree = "<group>";
+		};
+		DC7E42EE2CAD5991000E4CC4 /* ATurkcellApi1UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ATurkcellApi1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC7E42C82CAD5990000E4CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7E42DE2CAD5991000E4CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7E42E82CAD5991000E4CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC7E42C22CAD5990000E4CC4 = {
+			isa = PBXGroup;
+			children = (
+				DC7E42CD2CAD5990000E4CC4 /* ATurkcellApi1 */,
+				DC7E42E42CAD5991000E4CC4 /* ATurkcellApi1Tests */,
+				DC7E42EE2CAD5991000E4CC4 /* ATurkcellApi1UITests */,
+				DC7E42CC2CAD5990000E4CC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC7E42CC2CAD5990000E4CC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC7E42CB2CAD5990000E4CC4 /* ATurkcellApi1.app */,
+				DC7E42E12CAD5991000E4CC4 /* ATurkcellApi1Tests.xctest */,
+				DC7E42EB2CAD5991000E4CC4 /* ATurkcellApi1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC7E42CA2CAD5990000E4CC4 /* ATurkcellApi1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7E42F42CAD5991000E4CC4 /* Build configuration list for PBXNativeTarget "ATurkcellApi1" */;
+			buildPhases = (
+				DC7E42C72CAD5990000E4CC4 /* Sources */,
+				DC7E42C82CAD5990000E4CC4 /* Frameworks */,
+				DC7E42C92CAD5990000E4CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DC7E42CD2CAD5990000E4CC4 /* ATurkcellApi1 */,
+			);
+			name = ATurkcellApi1;
+			packageProductDependencies = (
+			);
+			productName = ATurkcellApi1;
+			productReference = DC7E42CB2CAD5990000E4CC4 /* ATurkcellApi1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC7E42E02CAD5991000E4CC4 /* ATurkcellApi1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7E42F92CAD5991000E4CC4 /* Build configuration list for PBXNativeTarget "ATurkcellApi1Tests" */;
+			buildPhases = (
+				DC7E42DD2CAD5991000E4CC4 /* Sources */,
+				DC7E42DE2CAD5991000E4CC4 /* Frameworks */,
+				DC7E42DF2CAD5991000E4CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC7E42E32CAD5991000E4CC4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DC7E42E42CAD5991000E4CC4 /* ATurkcellApi1Tests */,
+			);
+			name = ATurkcellApi1Tests;
+			packageProductDependencies = (
+			);
+			productName = ATurkcellApi1Tests;
+			productReference = DC7E42E12CAD5991000E4CC4 /* ATurkcellApi1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC7E42EA2CAD5991000E4CC4 /* ATurkcellApi1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7E42FC2CAD5991000E4CC4 /* Build configuration list for PBXNativeTarget "ATurkcellApi1UITests" */;
+			buildPhases = (
+				DC7E42E72CAD5991000E4CC4 /* Sources */,
+				DC7E42E82CAD5991000E4CC4 /* Frameworks */,
+				DC7E42E92CAD5991000E4CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC7E42ED2CAD5991000E4CC4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DC7E42EE2CAD5991000E4CC4 /* ATurkcellApi1UITests */,
+			);
+			name = ATurkcellApi1UITests;
+			packageProductDependencies = (
+			);
+			productName = ATurkcellApi1UITests;
+			productReference = DC7E42EB2CAD5991000E4CC4 /* ATurkcellApi1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC7E42C32CAD5990000E4CC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					DC7E42CA2CAD5990000E4CC4 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					DC7E42E02CAD5991000E4CC4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DC7E42CA2CAD5990000E4CC4;
+					};
+					DC7E42EA2CAD5991000E4CC4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DC7E42CA2CAD5990000E4CC4;
+					};
+				};
+			};
+			buildConfigurationList = DC7E42C62CAD5990000E4CC4 /* Build configuration list for PBXProject "ATurkcellApi1" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC7E42C22CAD5990000E4CC4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DC7E42CC2CAD5990000E4CC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC7E42CA2CAD5990000E4CC4 /* ATurkcellApi1 */,
+				DC7E42E02CAD5991000E4CC4 /* ATurkcellApi1Tests */,
+				DC7E42EA2CAD5991000E4CC4 /* ATurkcellApi1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC7E42C92CAD5990000E4CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7E42DF2CAD5991000E4CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7E42E92CAD5991000E4CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC7E42C72CAD5990000E4CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7E42DD2CAD5991000E4CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7E42E72CAD5991000E4CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC7E42E32CAD5991000E4CC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC7E42CA2CAD5990000E4CC4 /* ATurkcellApi1 */;
+			targetProxy = DC7E42E22CAD5991000E4CC4 /* PBXContainerItemProxy */;
+		};
+		DC7E42ED2CAD5991000E4CC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC7E42CA2CAD5990000E4CC4 /* ATurkcellApi1 */;
+			targetProxy = DC7E42EC2CAD5991000E4CC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC7E42F52CAD5991000E4CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y7653CXCKR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ATurkcellApi1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turkcell.ATurkcellApi1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC7E42F62CAD5991000E4CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y7653CXCKR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ATurkcellApi1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turkcell.ATurkcellApi1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC7E42F72CAD5991000E4CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC7E42F82CAD5991000E4CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC7E42FA2CAD5991000E4CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y7653CXCKR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turkcell.ATurkcellApi1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATurkcellApi1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ATurkcellApi1";
+			};
+			name = Debug;
+		};
+		DC7E42FB2CAD5991000E4CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y7653CXCKR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turkcell.ATurkcellApi1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATurkcellApi1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ATurkcellApi1";
+			};
+			name = Release;
+		};
+		DC7E42FD2CAD5991000E4CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y7653CXCKR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turkcell.ATurkcellApi1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ATurkcellApi1;
+			};
+			name = Debug;
+		};
+		DC7E42FE2CAD5991000E4CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y7653CXCKR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.turkcell.ATurkcellApi1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ATurkcellApi1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC7E42C62CAD5990000E4CC4 /* Build configuration list for PBXProject "ATurkcellApi1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7E42F72CAD5991000E4CC4 /* Debug */,
+				DC7E42F82CAD5991000E4CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7E42F42CAD5991000E4CC4 /* Build configuration list for PBXNativeTarget "ATurkcellApi1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7E42F52CAD5991000E4CC4 /* Debug */,
+				DC7E42F62CAD5991000E4CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7E42F92CAD5991000E4CC4 /* Build configuration list for PBXNativeTarget "ATurkcellApi1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7E42FA2CAD5991000E4CC4 /* Debug */,
+				DC7E42FB2CAD5991000E4CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7E42FC2CAD5991000E4CC4 /* Build configuration list for PBXNativeTarget "ATurkcellApi1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7E42FD2CAD5991000E4CC4 /* Debug */,
+				DC7E42FE2CAD5991000E4CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC7E42C32CAD5990000E4CC4 /* Project object */;
+}
